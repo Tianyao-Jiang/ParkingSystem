@@ -1,2 +1,5 @@
-public class Vehicle {
+public interface Vehicle {
+
+    String getPlate();
+    VehicleSize getVehicleSize();
 }
