@@ -12,6 +12,8 @@ import java.time.LocalDateTime;
 
 public class ParkingLot {
 
+    //
+
     private final FareCalculator fareCalculator;
     private final ParkingManager parkingManager;
 
