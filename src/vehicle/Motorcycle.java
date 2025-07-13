@@ -1,11 +1,12 @@
-public class Car implements Vehicle{
+package vehicle;
+
+public class Motorcycle implements Vehicle {
 
     private final String plateNumber;
 
-    public Car (String plateNumber){
+    public Motorcycle(String plateNumber){
         this.plateNumber = plateNumber;
     }
-
     @Override
     public String getPlate() {
         return this.plateNumber;
@@ -13,6 +14,6 @@ public class Car implements Vehicle{
 
     @Override
     public VehicleSize getVehicleSize() {
-        return VehicleSize.MEDIUM;
+        return VehicleSize.SMALL;
     }
 }
